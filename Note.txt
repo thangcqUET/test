@@ -1,0 +1,15 @@
+cài python pip virtualenv
+tải python về và cài đặt, set biến môi trường
+tải vỉtualenv bằng câu lệnh
+pip install virtualenv --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user
+tạo mt ảo
+virtualenv keras_env
+chạy mt ảo
+cho phép chạy file scritp .bat:  gõ Set-ExecutionPolicy RemoteSigned vào cmd (đưa về mặc định bằng cách gõ: Set-ExecutionPolicy Restricted)
+vào thư mục Script / chạy file activate
+
+tải tensorflow:
+pip install tensorflow --upgrade --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org
+
+install keras
+pip install keras --upgrade --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org
